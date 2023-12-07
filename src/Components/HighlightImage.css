@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.darken-image {
+    filter: brightness(50%);
+}
+
+.about-us {
+    margin-top: 50px;
+    color: #003381;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-us-mid {
+    margin-top: 25px;
+    font-size: large;
+    font-style: italic;
+    color: #003381;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-driver {
+    padding: 0px;
+}
+
+.div-driver {
+    background-color: #FAF7EE;
+    padding: 0px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: italic;
+    text-shadow: 2px 2px 5px #003381;
+    color: white; /* Adjust text color as needed */
+    padding: 25px;
+    text-align: center;
+    opacity: 0; /* Initial opacity set to 0 for the fade-in effect */
+    animation: breathing 3s infinite;/* Animation details */
+  }
+
+.button-mid {
+    position: absolute;
+    background-color: #FAF7EE;
+    color: #003381;
+    border: none;
+    top: 100%;
+    left: 43%;
+}
+
+  @media (max-width: 768px) {
+    .text-overlay {
+      font-size: 14px; /* Adjust font size for smaller screens */
+      padding: 10px; /* Adjust padding for smaller screens */
+      top: 25%;
+      left: 50%;
+    }
+    .button-mid {
+       padding: 1;
+       font-size: smaller;
+        top: 90%;
+      left: 35%;
+    }
+  }
+  @keyframes breathing {
+    0%, 100% {
+      opacity: 0; /* Start and end with opacity 0 for fade-in effect */
+    }
+    50% {
+      opacity: 1; /* Midpoint with opacity 1 for fade-out effect */
+    }
+  }

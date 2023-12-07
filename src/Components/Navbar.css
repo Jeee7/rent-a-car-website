@@ -1,0 +1,19 @@
+/* Navbar.css */
+
+/* Import the Roboto font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Apply the Roboto font to the entire Navbar */
+body .navbar-top {
+  font-family: 'Roboto', sans-serif;
+  padding: 15px;
+  background-color: #FAF7EE;
+}
+
+.body-color {
+  background-color: #FAF7EE !important;
+}
+
+.logo-img {
+  width: 15% ;
+}

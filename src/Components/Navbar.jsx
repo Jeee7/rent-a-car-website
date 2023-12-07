@@ -1,12 +1,18 @@
 // src/components/Navbar.jsx
 import React from 'react';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
+// import { Link } from 'react-router-dom';
+import Logo from '../Img/Logo.jpeg'; 
+import './Navbar.css'
 
 const AppNavbar = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Navbar.Brand href="#home">Your Brand Name</Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+    <div className='body-color'>
+    <Navbar collapseOnSelect expand="lg" className='navbar-top'>
+        <Container>
+            <img src={Logo}  alt="" className='logo-img' />
+        </Container>
+      {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="#features">Features</Nav.Link>
@@ -25,8 +31,10 @@ const AppNavbar = () => {
             Sign Up
           </Nav.Link>
         </Nav>
-      </Navbar.Collapse>
+      </Navbar.Collapse> */}
     </Navbar>
+    <Navbar collapseOnSelect expand="lg" style={{backgroundColor: '#04367F'}}></Navbar>
+    </div>
   );
 };
 

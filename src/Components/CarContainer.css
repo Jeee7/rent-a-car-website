@@ -1,0 +1,61 @@
+/* CarContainer.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body .container-car-top {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    color: #003381;
+  }
+
+  .tittle-card {
+    margin-top: 50px !important;
+  }
+  .solusi {
+    font-style: italic;
+    font-weight: 700;
+  }
+  .card-body-color {
+    background-color: #FAF7EE;
+  }
+
+  .highlights {
+    font-weight: 700;
+  }
+
+  .isi-biar-ga-sepi {
+    text-align: justify;
+    margin-top: 50px;
+  }
+  .card-body-text {
+    color:#003381;
+    text-align: center;
+    font-size: larger;
+    font-weight: 900;
+    margin-top: 25px;
+  }
+  .middle-body-tittle {
+    font-size: large;
+    font-style: italic;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px #003381;
+    font-size: medium;
+  }
+  .card-body-text-2 {
+    text-align: left;
+    font-size: medium;
+    color:#003381;
+  }
+  .text-left {
+    text-align: left;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
