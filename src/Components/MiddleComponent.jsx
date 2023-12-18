@@ -27,7 +27,7 @@ const MiddleComponent = () => {
         <Container>
             <h1 className='text-center mobil-pilih'>Pilihan Mobil</h1>
             <Row> 
-                <Col md={4} className='middle-card mb-4'>
+                {/* <Col md={4} className='middle-card mb-4'>
                 <Card>
                     <Card.Img variant="top" src={Ertiga} alt="Car 1" />
                     <Card.Body className='card-body-color'>
@@ -50,6 +50,30 @@ const MiddleComponent = () => {
                     <Button style={{backgroundColor: '#003381', border: 'none'}} onClick={() => redirectToWhatsApp('Ertiga')}>Pesan Sekarang</Button>
                     </Card.Body>
                 </Card>
+                </Col> */}
+                <Col md={4} className='middle-card mb-4'>
+                <Card>
+                        <Card.Img variant="top" src={Fortuner} alt="Car 2"  />
+                        <Card.Body className='card-body-color'>
+                        <Card.Title >
+                            <p  className='card-body-text'>
+                                Toyota Fortuner <br /> <br />
+                                <span className='middle-body-tittle'>
+                                SEWA + SUPIR 12 JAM / FULL DAY
+                                </span>
+                            </p>
+                            
+                            <p  className='card-body-text-2'>
+                                <ul>
+                                    <li style={{marginTop:'15px'}}>Kapasitas 7 Penumpang </li>
+                                    <li style={{marginTop:'15px'}}>Sudah Termasuk Jasa Driver</li>
+                                    <li style={{marginTop:'15px'}}>Harga belum termasuk uang BBM, Toll, Parkir, dan Uang Makan Driver</li>
+                                </ul>
+                            </p>
+                        </Card.Title>
+                        <Button style={{backgroundColor: '#003381', border: 'none'}} onClick={() => redirectToWhatsApp('Toyota Fortuner')}>Pesan Sekarang</Button>
+                        </Card.Body>
+                    </Card>
                 </Col>
 
                 <Col md={4} className='middle-card mb-4'>
@@ -204,30 +228,7 @@ const MiddleComponent = () => {
                     </Card>
                 </Col>
 
-                <Col md={4} className='middle-card mb-4'>
-                <Card>
-                        <Card.Img variant="top" src={Fortuner} alt="Car 2"  />
-                        <Card.Body className='card-body-color'>
-                        <Card.Title >
-                            <p  className='card-body-text'>
-                                Toyota Fortuner <br /> <br />
-                                <span className='middle-body-tittle'>
-                                SEWA + SUPIR 12 JAM / FULL DAY
-                                </span>
-                            </p>
-                            
-                            <p  className='card-body-text-2'>
-                                <ul>
-                                    <li style={{marginTop:'15px'}}>Kapasitas 7 Penumpang </li>
-                                    <li style={{marginTop:'15px'}}>Sudah Termasuk Jasa Driver</li>
-                                    <li style={{marginTop:'15px'}}>Harga belum termasuk uang BBM, Toll, Parkir, dan Uang Makan Driver</li>
-                                </ul>
-                            </p>
-                        </Card.Title>
-                        <Button style={{backgroundColor: '#003381', border: 'none'}} onClick={() => redirectToWhatsApp('Toyota Fortuner')}>Pesan Sekarang</Button>
-                        </Card.Body>
-                    </Card>
-                </Col>
+                
 
                 <Col md={4} className='middle-card mb-4'>
                 <Card>
